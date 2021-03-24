@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Items</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="produto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <img src="./imagens/Rocket_Items_Logotipo__3_-removebg-preview.png" width="150">
+        
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="loja.html">Loja</a>
+                    <a href="">Suporte</a>
+                </li>
+            </ul>
+        </div>
+            </header>
+            <main>
+                <h1 class="opa">Bem-Vindo A Loja</h1>
+                <div class="container_info">
+                    <div class="modal hide">
+                        <button class="botr" onclick="modalTrigger()">X</button>
+                        <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+                          <input type="hidden" name="accessKey" value="8e31238b-e6df-49ca-96a6-ec7db7b637a0">
+                          <div class="form">
+                         <label for="inputNome">Produto:</label>
+                         <input type="text"  id="title" class="form-contro"  name="name" readonly >
+                         <br>
+                         </div>
+
+                         <div class="form">
+                         <label for="inputCor">Cor:</label>
+                            <select class="form-contro"  type="text" name="$myCustomField2">
+                             <option value="nenhum">Nenhum</option>
+                            <option value="verde">verde</option>
+                            <option value="azul">azul</option>
+                            <option value="vermelho">vermelho</option>
+                            </select>
+                            </div>
+
+                         <div class="form">
+                         <label for="inputId">Coloque Id De Sua Steam/EpicGames:</label>
+                         <input type="text"  class="form-contro"  id="inputId" name="name">
+                         <br>
+                            </div>
+                          <div class="form">
+                         <label for="inputPreco">Preço:</label>
+                         <input type="text"   name="$myCustomField1" class="form-contro"  id="value" readonly >
+                         <br>
+                           </div>
+                           
+                         
+                         <button id="btnf">Enviar Pedido</button>
+                        </form>
+                        
+                   
+                       
+                        
+                    </div>
+
+                <div class="container">
+                    <div class="produtos" id="product-div">
+                        <section>
+                         
+                        </section>
+            </main>
+            <footer>
+                <div class="rodape">
+                    <i id="face" class="fab fa-facebook-f"></i>
+                    <i id="inst" class="fab fa-instagram"></i>
+                    <i id="what"class="fab fa-whatsapp"></i>
+                    
+                    <p>® 2021 Rocket Items – TODOS OS DIREITOS RESERVADOS</p>
+                </div>
+            </footer>
+            <script src="produtos.js"></script>
+               <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    font: normal 15pt ARIAL;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5f5;
+   
+}
+header{
+    padding: 2px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+    border-bottom: 3px solid #000;  
+    background-color: #f5f5f5f5;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;       
+    border-radius: 5px;
+    margin: 0px 20px ; 
+    display: inline-block;
+    left: 23vw;
+    font-size: 20pt;
+    position: relative;
+    height: 5vw;
+    
+   
+}
+.menu ul li{
+    display: inline-block;
+   color: #31343f;
+    
+}
+.menu ul li :hover{
+    display: inline-block;
+   color: #31343f;
+   
+}
+.logo img{
+    margin: 10px 30px;
+    }
+    .objeto1 img{
+        margin: 20px 10px;
+       border-radius: 40%;
+      position: relative;
+       left: 33vw;
+       box-shadow: 2px 2px  7px rgba(0, 0, 0, .3);
+    }
+.objeto1 p{
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+    
+main h1{
+   margin: 20px 20px;
+   font-size: 25pt;
+   font-weight: bolder;
+  
+}
+.objeto2 img{
+    margin: 20px 10px;
+   border-radius: 40%;
+  position: relative;
+   left: 33vw;
+   box-shadow: 2px 2px  7px rgba(0, 0, 0, .3);
+ 
+   
+}
+.objeto2 p{
+position: relative;
+text-align: center;
+
+}
+.objeto3 img{
+    margin: 20px 10px;
+   border-radius: 40%;
+  position: relative;
+   left: 33vw;
+   box-shadow: 2px 2px  7px rgba(0, 0, 0, .3);
+ 
+   
+}
+.objeto3 p{
+position: relative;
+text-align: center;
+
+}
+footer {
+   
+    color: #000;
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.rodape p{
+    font-weight: bolder;
+}
+#face {
+    color: rgb(0, 17, 255);
+    
+}
+#what{
+    color:rgb(0, 255, 0) ;
+    
+}
+#inst {
+    color: crimson;
+}
+   
+
+
+    
+   
