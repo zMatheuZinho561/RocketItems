@@ -8,10 +8,8 @@ body{
 }
 header{
     padding: 2px 0;
-    overflow: hidden;
     display: flex;
     align-items: center;
-    
     border-bottom: 3px solid #000;  
     background-color: #f5f5f5f5;
 }
@@ -30,6 +28,12 @@ header{
     height: 5vw;
     
    
+}
+.container{
+    padding: 25px;
+    margin: 25px 25px;
+    justify-content: center;
+    display: flex;
 }
 .menu ul li{
     display: inline-block;
@@ -113,8 +117,26 @@ footer {
 #inst {
     color: crimson;
 }
-   
-
-
-    
+@media only screen and (max-device-width: 800px) {
+    .menu{
+        position: relative;
+        right: 130px;
+    }
+    .menu ul li a{
+        width: 100%;
+        
+    }
+    .objeto1 img{
+        width: 300px;
+        
+    }
+    .objeto2 img{
+        width: 300px;
+        
+    }
+    .objeto3 img{
+        width: 300px;
+        
+    }
+}
    

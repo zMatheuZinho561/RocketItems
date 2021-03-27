@@ -1,0 +1,31 @@
+.aba2 ul li a{
+    position: relative;
+    width: 100px;
+    text-decoration: none;
+    left: 35vw;
+    top: 1023vw;
+    color: black;
+    background-color: #cccc;
+    border-radius: 5px;
+    font-weight:bolder ;
+    font-size: 30px;
+    margin: 10px;
+    list-style-type: none;
+    
+}
+.aba2 li{
+    list-style-type: none;
+}
+.aba2 h4{
+    position: relative;
+    width: 115px;
+    text-decoration: none;
+    left: 36vw;
+    top: 1023vw;
+    color: black;
+    background-color: #cccc;
+    border-radius: 5px;
+    font-weight:bolder ;
+    font-size: 30px;
+    margin: 10px;
+}
