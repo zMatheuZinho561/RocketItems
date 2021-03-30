@@ -1,31 +1,58 @@
-.aba2 ul li a{
-    position: relative;
-    width: 100px;
-    text-decoration: none;
-    left: 35vw;
-    top: 1023vw;
-    color: black;
-    background-color: #cccc;
-    border-radius: 5px;
-    font-weight:bolder ;
-    font-size: 30px;
-    margin: 10px;
-    list-style-type: none;
-    
+.body{
+    background-color: #f5f5f5f5;
 }
 .aba2 li{
     list-style-type: none;
 }
-.aba2 h4{
-    position: relative;
-    width: 115px;
-    text-decoration: none;
-    left: 36vw;
-    top: 1023vw;
-    color: black;
-    background-color: #cccc;
-    border-radius: 5px;
-    font-weight:bolder ;
-    font-size: 30px;
-    margin: 10px;
+.logo3{
+    
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-left: auto;
 }
+nav h1{
+    font-size:  25pt;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-left: auto;
+
+
+}
+nav h2{
+    font-size:  20pt;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-left: auto;
+}
+nav img{
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+.menu3 ul li a{
+    
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #000;       
+        border-radius: 5px;
+        font: 25pt;
+        
+       
+    
+}
+
+.menu3 li{
+    list-style-type: none;
+}
+
+
+
+

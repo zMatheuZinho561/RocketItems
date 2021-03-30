@@ -31,21 +31,26 @@
                 <h1 class="opa">Bem-Vindo A Loja</h1>
                 <div class="container_info">
                     <div class="modal hide">
-                        <button class="botr" onclick="modalTrigger()">X</button>
+                        <button class="botr" onclick="modalTriggerr()">X</button>
                         <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
                           <input type="hidden" name="accessKey" value="8e31238b-e6df-49ca-96a6-ec7db7b637a0">
+                          <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> 
+                          
                           <div class="form">
                          <label for="inputNome">Produto:</label>
                          <input type="text"  id="title" class="form-contro"  name="name" readonly >
                          <br>
                          </div>
-
-                        
-
+                          
                          <div class="form">
                          <label for="inputId">Coloque Id De Sua Steam/EpicGames:</label>
                          <input type="text"  class="form-contro"  id="inputId" name="name">
                          <br>
+                         <div class="form">
+                            <label for="inutCor">Cor:</label>
+                          <input type="text"   name="$myCustomField1" class="form-contro"  id="cor" readonly >
+                        </div>
+                        <br>
                             </div>
                           <div class="form">
                          <label for="inputPreco">Preço:</label>

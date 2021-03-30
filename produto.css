@@ -26,35 +26,10 @@ main .container .produtos {
 .produto:hover{
 background-color: #7c7171;
 }
-.aba1 ul li a{
-    position: relative;
-    text-decoration: none;
-    top: 1208vw;
-    color: black;
-    left: 35vw;
-    background-color: #cccc;
-    border-radius: 5px;
-    font-weight:bolder ;
-    margin: 10px;
-    font-size: 30px;
+
+
     
-}
-.aba1 li{
-    list-style-type: none;
-}
-.aba1 h4{
-    position: relative;
-    width: 115px;
-    text-decoration: none;
-    left: 37vw;
-    top: 1210vw;
-    color: black;
-    background-color: #cccc;
-    border-radius: 5px;
-    font-weight:bolder ;
-    font-size: 30px;
-    
-}
+
 .form{
     width: 100%;
     display: flex;
@@ -152,7 +127,7 @@ margin-left: auto;
 .btnc:hover{
 background-color: rgb(90, 247, 0);
 }
-@media (min-width: 800px) {
+@media  (min-width: 800px) {
     main .container .produtos {
         flex-direction: row;
         justify-content: space-around;
@@ -162,7 +137,9 @@ background-color: rgb(90, 247, 0);
     main .container .produtos .produto {
         width: 300px;
     }
+
 }
+
 .container {
     width: 90vw;
     margin: 0px auto;
