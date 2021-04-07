@@ -1,6 +1,19 @@
 .body{
     background-color: #f5f5f5f5;
 }
+
+
+.aba1 ul li a{
+    color: #000;
+text-decoration: none;
+}
+.aba2 ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.aba1 li{
+    list-style-type: none;
+}
 .aba2 li{
     list-style-type: none;
 }

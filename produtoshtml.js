@@ -7,6 +7,7 @@ const produtos = [
         title: 'Roda Blssm',
         title1: 'Cor: Branco ',
         value: '',
+        title3: 'blssm',
     },
     {
         id: '2',
@@ -35,6 +36,7 @@ const produtos = [
         title: 'Roda Blssm',
         title1: 'Cor: Verde',
         value: '',
+        
     },
     {
         id: '6',

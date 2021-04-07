@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocket Items</title>
+    <link rel="stylesheet" href="aba.css">
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="produto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="site.webmanifest"/>
+    <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
     <header>
@@ -25,8 +28,18 @@
                 </li>
             </ul>
         </div>
+      
             </header>
             <main>
+  <section class="hero">
+            <div class="container">
+                <form id="formSearch">
+                <input type="search" placeholder="Qual Item Você Deseja?..." name="inputSearch" id="inputSearch">
+                </form>
+            </div>
+
+        </section>
+
                 <h1 class="opa">Bem-Vindo A Loja</h1>
                 <div class="container_info">
                     <div class="modal hide">
@@ -34,7 +47,7 @@
                         <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
                           <input type="hidden" name="accessKey" value="8e31238b-e6df-49ca-96a6-ec7db7b637a0">
                           <input type="hidden" name="redirectTo" value="https://rocketitems.vercel.app/enviado.html"> 
-                          
+
                           <div class="form">
                          <label for="inputNome">Produto:</label>
                          <input type="text"  id="title" class="form-contro"  name="name" readonly >
@@ -43,20 +56,21 @@
 
                          <div class="form">
                          <label for="inputId">Coloque Id De Sua Steam/EpicGames:</label>
-                         <input type="text"  class="form-contro"  id="inputId" name="name">
+                         <input type="text"  class="form-contro"  id="inputId" name="$myCustomField1" required>
                          <br>
+
                          <label for="inputcolor">Cor:</label>
-                         <input type="text"   name="$myCustomField1" class="form-contro"  id="cor" readonly >
+                         <input type="text"   name="email" class="form-contro"  id="cor" readonly >
                             </div>
                             <br>
                           <div class="form">
                          <label for="inputPreco">Preço:</label>
-                         <input type="text"   name="$myCustomField1" class="form-contro"  id="value" readonly >
+                         <input type="text"   name="phone" class="form-contro"  id="value" readonly >
                          <br>
                            </div>
                            
                          
-                         <button id="btnf">Enviar Pedido</button>
+                         <button id="btnf" onclick="capthac()">Enviar Pedido</button>
                         </form>
                         
                    
@@ -75,7 +89,7 @@
                             <ul>
                                 <li>
                                     <a href="loja.html">1</a>
-                                    <a href="partIndex.html">2</a>
+                                    <a href="#">2</a>
                                     
                                 </li>
                             </ul>
@@ -92,5 +106,6 @@
             </footer>
             <script src="produtos.js"></script>
                <script src="app.js"></script>
+               <script src="infproducts.js"></script>
 </body>
 </html>
